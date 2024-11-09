@@ -4,3 +4,37 @@
   box-sizing: border-box;
   font-size: 30px;
 }
+
+/* Estilos generales para toda la app */
+.app-container {
+  background-color: #ffffff; /* Fondo blanco */
+  color: #333; /* Texto en gris oscuro para buen contraste */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para los botones */
+button {
+  background-color: #3a77d2; /* Azul francia */
+  color: #ffffff; /* Texto blanco */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #335c99; /* Azul más oscuro al pasar el mouse */
+}
+
+/* Estilos para links */
+a {
+  color: #3a77d2; /* Azul francia */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #335c99; /* Azul más oscuro al pasar el mouse */
+}

@@ -1,0 +1,73 @@
+/* navbar.css */
+.navbar {
+  background-color: #0069d9; /* Azul Francia */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .brand {
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar ul li {
+  margin: 0;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+  color: #ffcc00; /* color de hover */
+}
+
+/* Estilo general para el carrito */
+.cartwidget {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black; /* Color del texto por defecto */
+  padding: 10px;
+}
+
+/* Icono del carrito */
+.icon-cartwidget {
+  font-size: 24px;
+  color: black; /* Color negro para el ícono del carrito */
+}
+
+.empty-cartwidget {
+  font-size: 24px;
+  color: black; /* Color negro para el ícono cuando está vacío */
+}
+
+/* Número de productos en el carrito */
+.number-cartwidget {
+  font-size: 16px;
+  color: black;
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+/* Hover para cambiar color cuando se pase el mouse */
+.cartwidget:hover .icon-cartwidget {
+  color: #ffcc00; /* Color dorado en hover */
+}
+
+/* Estilo para el carrito vacío */
+.cartwidget:hover .empty-cartwidget {
+  color: black; /* Se mantiene negro en hover, pero se puede cambiar si lo deseas */
+}
